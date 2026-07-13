@@ -1,0 +1,11 @@
+user
+pass
+:
+ARCHETYPE\sql_svc
+M3g4c0rp123
+
+;Initial Catalog=Catalog
+;Provider=SQLNCLI10.1
+;Persist Security Info=True
+;Auto Translate=False
+

