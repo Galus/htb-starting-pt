@@ -1,0 +1,4 @@
+# Nmap 7.99 scan initiated Sun Jul 12 21:03:06 2026 as: /usr/lib/nmap/nmap --privileged -sC -sV -oA scan 10.129.188.120
+Host: 10.129.188.120 ()	Status: Up
+Host: 10.129.188.120 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.2p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)/, 6789/open/tcp//ibm-db2-admin?///, 8080/open/tcp//http//Apache Tomcat (language: en)/, 8443/open/tcp//ssl|nagios-nsca//Nagios NSCA/	Ignored State: closed (996)
+# Nmap done at Sun Jul 12 21:06:01 2026 -- 1 IP address (1 host up) scanned in 175.12 seconds
