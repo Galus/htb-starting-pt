@@ -57,7 +57,7 @@ All challenges were worked through step-by-step. Each folder contains `notes/wri
 |-----------|---------|--------|-------------|
 | **Archetype** | Windows AD lateral movement | Win Server 2019 | SMB null session → MSSQL creds → `xp_cmdshell` → PowerShell history → admin WinRM |
 | **Oopsie** | IDOR + file upload | Linux web app | IDOR to admin panel → upload webshell → DB cred discovery → privilege escalation |
-| **Unified** | UniFi controller RCE | Ubuntu Linux | MongoDB default creds → UniFi RCE → `mongo` shell → root flag |
+| **Unified** | Log4Shell + MongoDB | Ubuntu Linux | Log4Shell RCE on UniFi controller → connect to MongoDB from target → read root flag |
 | **Vaccine** | FTP + SQLi + sudo | Ubuntu Linux | Anonymous FTP → SQL injection → hash cracking → `pgpass` → sudo `vi` |
 
 ---
