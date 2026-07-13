@@ -1,0 +1,16 @@
+<?php
+$conn = mysqli_connect('localhost','robert','M3g4C0rpUs3r!','garage');
+?>
+
+
+mysql> select * from accounts;
++------+--------+-------------+-------------------------+
+| id   | access | name        | email                   |
++------+--------+-------------+-------------------------+
+|   13 |  57633 | Peter       | peter@qpic.co.uk        |
+|   23 |  28832 | Rafol       | tom@rafol.co.uk         |
+|    4 |   8832 | john        | john@tafcz.co.uk        |
+|   30 |  86575 | super admin | superadmin@megacorp.com |
+|    1 |  34322 | admin       | admin@megacorp.com      |
+|    2 |   2233 | guest       | guest@megacorp.com      |
++------+--------+-------------+-------------------------+

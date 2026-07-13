@@ -1,0 +1,7 @@
+www-data@oopsie:/$ cat /etc/passwd
+lxd:x:105:65534::/var/lib/lxd/:/bin/false
+mysql:x:111:114:MySQL Server,,,:/nonexistent:/bin/false
+pollinate:x:109:1::/var/cache/pollinate:/bin/false
+root:x:0:0:root:/root:/bin/bash
+robert:x:1000:1000:robert:/home/robert:/bin/bash
+sync:x:4:65534:sync:/bin:/bin/sync
